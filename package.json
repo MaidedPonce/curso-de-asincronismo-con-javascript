@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "author": "MaidedPonce",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/MaidedPonce/curso-de-asincronismo-con-javascript",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
 }
